@@ -1,0 +1,32 @@
+# -------------------------------------------------------------------------
+# IGNORE DO BUILD E OUTPUT
+# -------------------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# Pastas de compilação/saída comuns
+/bin/
+/out/
+/target/
+/build/
+
+# Log files
+*.log
+log/
+temp/
+
+# -------------------------------------------------------------------------
+# IGNORE DO INTELLIJ IDEA
+# -------------------------------------------------------------------------
+# A pasta principal de configuração da IDE
+.idea/
+
+# Arquivos de módulo do projeto, que devem ser ignorados
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de histórico local
+.history/
